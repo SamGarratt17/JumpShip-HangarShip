@@ -2,7 +2,7 @@ HangarShip a fairly rudimentary mod for Jump Ship by Keepsake Games.
 This is my first mod for the game and it has a few issues still but it works.
 Installation is done via MelonLoader[https://melonwiki.xyz/#/], simply drag and drop the dll into your mods folder once installed.
 
-Known issues:
+Known issues:  
 -Doors must be opened from outside once before the inside panel works  
 -Ship customization doesnt register until hangar is reloaded  
 -First cutscenes no longer display the ship  
