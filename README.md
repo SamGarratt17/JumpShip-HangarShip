@@ -6,8 +6,9 @@ Known issues:
 -Doors must be opened from outside once before the inside panel works  
 -Ship customization doesnt register until hangar is reloaded  
 -First cutscenes no longer display the ship  
+-No terrain has collision with ship
 
 I will be working to fix some of these issues but i dont believe some of them can be easily fixed.
 If you discover any more bugs, please dm me on discord (graciouscub5622)
 
-Thank you for tring out my mod!
+Thank you for trying out my mod!
