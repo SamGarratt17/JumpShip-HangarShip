@@ -7,6 +7,7 @@ using UnityEngine;
 using MelonLoader;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using Il2CppSystem;
 
 namespace HangarShip
 {
@@ -15,6 +16,7 @@ namespace HangarShip
         public override void OnInitializeMelon()
         {
             LoggerInstance.Msg("HangarShip Melon Enabled");
+            new GameObject("MenuGUI").AddComponent<MenuGUI>();
         }
 
         public override void OnSceneWasInitialized(int buildIndex, string sceneName)
@@ -25,11 +27,39 @@ namespace HangarShip
                 LoggerInstance.Msg($"Scene {sceneName} with build index {buildIndex} has been loaded!");
             }
         }
+        private void DrawMenu()
+        {
+            GUI.Box(new Rect(0, 0, 300, 500), "My Menu");
+        }
+            
 
         private IEnumerator DelayedActivate()
         {
             yield return new WaitForSeconds(3f);
             EnableShip.Activate();
+        }
+    }
+
+    public class MenuGUI : MonoBehaviour
+    {
+        private string userInput = "Type here...";
+        private bool showMenu = true;
+
+        void OnGUI()
+        {
+            if (!showMenu)
+                return;
+
+            GUI.Box(new Rect(10, 10, 320, 180), "Test Menu");
+
+            GUI.Label(new Rect(20, 40, 280, 20), "Some random test text goes here.");
+
+            userInput = GUI.TextField(new Rect(20, 70, 280, 25), userInput);
+
+            if (GUI.Button(new Rect(20, 110, 280, 30), "Click Me"))
+            {
+                Debug.Log("Button clicked! Input was: " + userInput);
+            }
         }
     }
 

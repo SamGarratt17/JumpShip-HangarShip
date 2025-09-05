@@ -34,6 +34,9 @@
     <Reference Include="Il2CppInterop.Runtime">
       <HintPath>D:\SteamLibrary\steamapps\common\Jump Ship Demo\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Il2CppKeepsake.ImGui">
+      <HintPath>D:\SteamLibrary\steamapps\common\Jump Ship Demo\MelonLoader\Il2CppAssemblies\Il2CppKeepsake.ImGui.dll</HintPath>
+    </Reference>
     <Reference Include="Il2Cppmscorlib">
       <HintPath>D:\SteamLibrary\steamapps\common\Jump Ship Demo\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
     </Reference>
@@ -53,6 +56,9 @@
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>D:\SteamLibrary\steamapps\common\Jump Ship Demo\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Jump Ship Demo\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
       <HintPath>D:\SteamLibrary\steamapps\common\Jump Ship Demo\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll</HintPath>

@@ -5,8 +5,8 @@ using System.Runtime.InteropServices.ComTypes;
 using MelonLoader;
 using HangarShip; // The namespace of your mod class
 // ...
-[assembly: MelonInfo(typeof(ModMain), "Hangar Ship Unlocked", "0.0.1", "GraciousCub5622")]
-[assembly: MelonGame("KeepsakeGames", "Jump Ship")]
+[assembly: MelonInfo(typeof(ModMain), "Hangar Ship Unlocked", "0.0.2", "GraciousCub5622")]
+[assembly: MelonGame("Keepsake Games", "Jump Space")]
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
