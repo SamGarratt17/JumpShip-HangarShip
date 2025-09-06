@@ -4,7 +4,7 @@ Installation is done via MelonLoader[https://melonwiki.xyz/#/], simply drag and 
 
 Known issues:  
 -Doors must be opened from outside once before the inside panel works  
--Ship customization doesnt register until hangar is reloaded  
+-Ship customization/selection doesnt register until hangar is reloaded  
 -First cutscenes no longer display the ship  
 -No terrain has collision with ship
 
